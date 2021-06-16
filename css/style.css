@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+.index-bg {
+	background-image: url(../img/bg-2.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.create-bg {
+	background: #EB5757;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.login-bg {
+	background: #ADA996;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.jumbotron {
+	background: none;
+}
+/*
+  Below is the syntax for adding values to the box shadow property 
+  box-shadow: none|h-shadow v-shadow blur spread color |inset|initial|inherit;
+*/
+.boxShadow {
+	/*Chrome, Safari*/
+	-webkit-box-shadow: 4px 4px 25px 1px #363636;
+	/*Standard Syntax*/
+	box-shadow: 4px 4px 25px 1px #363636;
+}
+
+.create-form-bg {
+	display: block;
+    width: 100%;
+    padding: .900rem .575rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ffffff;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	background-color: rgba(0, 0, 0, 0.45);
+    border: 1px solid #00000070;
+}
+.create-form-bg:after {
+	width: 500px;
+	height: 300px;
+	filter: blur(100px);
+}
